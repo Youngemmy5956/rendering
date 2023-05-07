@@ -5,10 +5,8 @@ function App() {
   return (
     <div>
         <RenderingList />
-
         <Axios />
-        <Axios />
-        {/* <RenderingLists /> */}
+        <RenderingLists />
     </div>
   );
 }
