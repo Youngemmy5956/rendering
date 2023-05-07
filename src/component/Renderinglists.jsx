@@ -27,6 +27,8 @@ const poem = {
 
 
   const RenderingLists = () => {
+
+    
     return (
       <div>
         {" "}
@@ -34,14 +36,9 @@ const poem = {
           return (
             <div key={index}>
               <article>
-              <p></p>
+              <p> </p>
               <hr />
 
-              <p></p>
-              <hr />
-
-              <p></p>
-              <hr />
               </article>
             </div>
           );
