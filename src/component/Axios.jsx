@@ -30,18 +30,16 @@ function Axios() {
                 <th>Title</th>
             </tr>
 
+            {post.map(post => (
+                <tr key={post.id}>
+                    <td>{post.id}</td>
+                    <td>{post.userId}</td>
+                    <td>{post.title}</td>
 
-            <tr>
-                <td></td>
-            </tr>
 
-            <tr>
-                <td></td>
-            </tr>
+                </tr>
+            ))}
 
-            <tr>
-                <td></td>
-            </tr>
         </table>
         
         
