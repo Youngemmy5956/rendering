@@ -5,24 +5,6 @@ const poem = [{
     'Erase again, and then',
     'A poppy blooms.']
   },]
-//   const RenderingList = ({ recipes }) => {
-//     return (
-//       <div>
-//         <h2>Recipes</h2>
-//         {recipes.map(recipe => (
-//           <div key={recipe.id}>
-//             <h2>{recipe.name}</h2>
-//             <ul>
-//               {recipe.ingredients.map(ingredient => (
-//                 <li key={ingredient}>{ingredient}</li>
-//               ))}
-//             </ul>
-//           </div>
-//         ))}
-//       </div>
-//     );
-//   }
-
 
   const RenderingLists = () => {
 
