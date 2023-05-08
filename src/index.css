@@ -14,5 +14,9 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 hr{
-  color: blue;
+  color:  #dddddd;
+  padding: 2px 2px ;
+  background-color: black;
+
+
 }
